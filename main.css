@@ -132,7 +132,7 @@ h6 {
     position: absolute;
     left: 0;
     width: 100%;
-    background: #e8676b;
+    background: #00D2FF;
     height: 3px;
     animation: menuSlide .3s;
 }
@@ -183,8 +183,7 @@ h6 {
 }
 
 .topNavBar .logo .rs {
-    margin-right: 4px;
-    color: #e8676b;
+    color: #00D2FF;
 }
 
 .topNavBar .logo .card {
@@ -212,22 +211,23 @@ h6 {
 }
 
 .usercard .welcome {
-    background-color: #e8676b;
+    background-color: #00D2FF;
     color: white;
     padding: 4.5px 14.5px;
     display: inline-block;
-    line-height: 20px;
+    font-size: 2em;
+    line-height: 48px;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 
 .usercard .welcome .triangle {
-    border: 10px solid transparent;
+    border: 15px solid transparent;
     width: 0px;
-    border-left-color: #e8676b;
+    border-left-color: #00D2FF;
     border-top-width: 0px;
     top: 100%;
-    left: 5px;
+    left: 10px;
     display: block;
     position: absolute;
 }
@@ -273,7 +273,7 @@ h6 {
 }
 
 .usercard>footer.media {
-    background: #e8676b;
+    background: #00D2FF;
     text-align: center;
 }
 
@@ -388,7 +388,7 @@ section.skills .progressBar {
 section.skills .progress {
     height: 100%;
     width: 50%;
-    background: #e8676b;
+    background: #00D2FF;
     border-radius: 2px;
     transform: translateX(0);
     transition: all 0.5s;
